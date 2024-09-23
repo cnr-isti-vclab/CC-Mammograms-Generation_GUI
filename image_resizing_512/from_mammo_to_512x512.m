@@ -3,14 +3,14 @@ source_dir = ''; % Insert the path of the real mammograms to be scaled here
 dest_dir = ''; % Insert the path where you want to save the scaled mammograms here
 path_source = fullfile(source_dir,'\*.png');
 
-image_list_struct_model = dir(path_source);
-image_list_model = {image_list_struct_model.name}';  
+image_list_struct_mammo = dir(path_source);
+image_list_mammo = {image_list_struct_mammo.name}';  
 IM = {0};
 
-for i = 1 : numel(image_list_model)
-  name_model = image_list_model{i};
-  full_path_model = fullfile(source_dir, name_model);
-  im = imread(full_path_model);
+for i = 1 : numel(image_list_mammo)
+  name_mammo = image_list_mammo{i};
+  full_path_mammo = fullfile(source_dir, name_mammo);
+  im = imread(full_path_mammo);
   IM{i} = im; 
 
 I = IM {i};
@@ -36,7 +36,7 @@ else
     PAD((512/2)-((r-1)/2):(512/2)+((r-1)/2),512-c+1:end,:) = I_resized;
 end
 
-full_path_dest = fullfile(dest_dir, name_model); 
+full_path_dest = fullfile(dest_dir, name_mammo); 
 imwrite(PAD, full_path_dest)
 
 end
