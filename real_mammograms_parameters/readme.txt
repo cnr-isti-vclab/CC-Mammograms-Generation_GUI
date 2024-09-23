@@ -1,1 +1,3 @@
 Mammograms were categorized based on the type of findings into normal, benign, malignant, and mixed (with both benign and malignant findings). The parameters for the 2D parametric model of the breast were extracted separately from each group of mammograms and then combined. All parameters are in the 'all_mammograms_parameters' folder. a is the horizontal semiaxis of the ellipse, b is the vertical semiaxis, phi is the tilt angle, X0 and Y0 are the coordinates of the center of the ellipse, and Alpha_e is the ending point of the ellipse.
+
+In the complete set of parameters, parameters 1 to 86 are extracted from normal mammograms; parameters 87 to 115 from benign mammograms; parameters 116 to 158 from malignant mammograms; and parameters 159 to 163 from mixed mammograms.
