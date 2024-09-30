@@ -24,6 +24,11 @@ The proposed workflow generates realistic synthetic mammograms with fine-tuned f
 - Requirements for [pix2pix](https://github.com/phillipi/pix2pix)
 - Requirements for [real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
 
+## Usage
+In this repository, you will find the code related to the 2D parametric breast model, including the extraction of breast profile parameters and our GUI. For the subsequent steps, please refer to the following repositories and to our [paper]():
+- Low-resolution mammograms generation: [pix2pix](https://github.com/phillipi/pix2pix)
+- High-resolution mammograms generation: [real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+
 ## Breast Profile Parameters Extraction
 
 ## 2D Parametric Breast Model
