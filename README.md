@@ -1,10 +1,11 @@
 # CC-Mammograms-Generation_GUI
-<!-- # ![icon](images/Pipeline.pdf)  -->
-<!-- # <img src="images/Pipeline.pdf" align="left" width="50px"/>  -->
+<!-- # ![icon](images/Pipeline.png)  -->
+<!-- # <img src="images/Pipeline.png" align="left" width="50px"/>  -->
 
 Valentina Piras $^{1,3}$, Amedeo F. Bonatti $^{2}$, Carmelo De Maria $^{2}$, Paolo Cignoni $^3$, Francesco Banterle $^3$.<br>
 $^1$ Department of Computer Science of the University of Pisa, $^2$ Department of Information Engineering and Research Center E. Piaggio of the University of Pisa, $^3$ Italian National Research Council of Pisa.
 
+![teaser](images/teaser.png)
 
 **Summary**
 
